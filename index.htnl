@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Звёздные войны</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="logo">⭐ Star Wars</div>
+            <nav>
+                <a href="#about">О фильме</a>
+                <a href="#heroes">Герои</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-block">
+                <div class="hero-text">
+                    <h1>Звёздные войны</h1>
+                    <p>Легендарная сага о борьбе добра и зла</p>
+                    <a href="#about" class="btn">Узнать больше</a>
+                </div>
+                <div class="hero-image">
+                    <img src="starwars.png" alt="Звёздные войны">
+                    <span class="badge">🎬 Культ</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="fixed-bg">
+        <div class="container">
+            <div class="fixed-content">
+                <h2>Да прибудет с тобой сила</h2>
+                <p>Далёкая-далёкая галактика ждёт своих героев</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2>О фильме</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <span class="icon">🌌</span>
+                    <h3>Вселенная</h3>
+                    <p>Далёкая галактика</p>
+                </div>
+                <div class="about-card">
+                    <span class="icon">⚔️</span>
+                    <h3>Световой меч</h3>
+                    <p>Оружие джедаев</p>
+                </div>
+                <div class="about-card">
+                    <span class="icon">🚀</span>
+                    <h3>Тысячелетний Сокол</h3>
+                    <p>Самый быстрый корабль</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="heroes" id="heroes">
+        <div class="container">
+            <h2>Герои</h2>
+            <div class="heroes-grid">
+                <div class="heroes-card">
+                    <img src="luk.png" alt="Люк">
+                    <h3>Люк Скайуокер</h3>
+                </div>
+                <div class="heroes-card">
+                    <img src="dartveider.png" alt="Вейдер">
+                    <h3>Дарт Вейдер</h3>
+                </div>
+                <div class="heroes-card">
+                    <img src="princess.png" alt="Лея">
+                    <h3>Принцесса Лея</h3>
+                </div>
+                <div class="heroes-card">
+                    <img src="hansolo.png" alt="Хан">
+                    <h3>Хан Соло</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <footer>
+        <div class="container">
+            <p>© 2026 — Звёздные войны</p>
+        </div>
+    </footer>
+
+</body>
+</html>
