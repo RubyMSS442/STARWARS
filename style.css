@@ -311,3 +311,99 @@ footer {
     font-size: 13px;
 }
 
+@media (max-width: 600px) {
+    header .container {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .hero-block {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+    
+    .hero-text h1::before {
+        font-size: 28px;
+    }
+
+    .hero-image img {
+        max-width: 100%;
+    }
+
+    .badge {
+        top: -8px;
+        right: 5px;
+        font-size: 11px;
+        padding: 4px 12px;
+    }
+
+    .about-grid,
+    .heroes-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+
+    .fixed-bg {
+        min-height: 250px;
+    }
+
+    .fixed-content h2 {
+        font-size: 26px;
+    }
+
+    .fixed-content p {
+        font-size: 15px;
+    }
+
+    .fan-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 16px;
+    }
+
+    .fan-card img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 400px) {
+    .about-grid,
+    .heroes-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-text h1 {
+        font-size: 22px;
+    }
+    
+    .hero-text h1::before {
+        font-size: 22px;
+    }
+
+    nav {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .fixed-bg {
+        min-height: 200px;
+    }
+
+    .fixed-content h2 {
+        font-size: 20px;
+    }
+
+    .fixed-content p {
+        font-size: 13px;
+    }
+}
